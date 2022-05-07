@@ -9,7 +9,7 @@ export default defineConfig({
     {
       type: 'user',
       path: '/user',
-      component: 'user',
+      component: '@/pages/user/user.tsx',
       wrappers: ['@/wrappers/auth'],
     },
     { type: 'login', path: '/login', component: 'login' },
